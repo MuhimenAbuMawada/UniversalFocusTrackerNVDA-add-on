@@ -1,4 +1,4 @@
-# 🖱️ Universal Focus Tracker for NVDA
+# Universal Focus Tracker for NVDA
 
 **Universal Focus Tracker** is a professional NVDA add-on designed to synchronize the mouse cursor with NVDA's focus and Navigator object. It ensures the mouse is always perfectly centered on the active element, providing a seamless navigation experience across applications and modern web browsers.
 
@@ -14,7 +14,7 @@
 
 ## Settings and Configuration
 
-The add-on is fully integrated into the NVDA ecosystem. Users can manage the tracking behavior through a dedicated settings category:
+The add-on is fully integrated into the NVDA settings. Users can manage the tracking behavior through a dedicated settings category:
 
 1.  Open the **NVDA Menu** (NVDA+N).
 2.  Navigate to **Settings** -> **Categories**.
