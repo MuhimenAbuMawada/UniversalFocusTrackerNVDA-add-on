@@ -6,15 +6,17 @@
 import wx
 from gui.settingsDialogs import SettingsPanel
 import config
+import addonHandler
 
+addonHandler.initTranslation()
 
 # Creating the catecory for add-on in NVDA settings.
 class SettingsDialog(SettingsPanel):
-	title = "Focus tracker"
+	title = _("Universal focus tracker")
 
 # Creating widgets of add-on settings.
 	def makeSettings(self, settingsSizer):
-		self.enableTrackingCheckBox = wx.CheckBox(self, label="Enable tracking")
+		self.enableTrackingCheckBox = wx.CheckBox(self, label=_("Enable tracking"))
 		state = config.conf["mouseTracker"]["enableTracking"]
 		self.enableTrackingCheckBox.SetValue(state)
 		settingsSizer.Add(self.enableTrackingCheckBox)
