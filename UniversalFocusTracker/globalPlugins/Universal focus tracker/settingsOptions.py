@@ -12,15 +12,15 @@ addonHandler.initTranslation()
 
 # Creating the catecory for add-on in NVDA settings.
 class SettingsDialog(SettingsPanel):
-	title = _("Universal focus tracker")
+    title = _("Universal focus tracker")
 
 # Creating widgets of add-on settings.
-	def makeSettings(self, settingsSizer):
-		self.enableTrackingCheckBox = wx.CheckBox(self, label=_("Enable tracking"))
-		state = config.conf["mouseTracker"]["enableTracking"]
-		self.enableTrackingCheckBox.SetValue(state)
-		settingsSizer.Add(self.enableTrackingCheckBox)
+    def makeSettings(self, settingsSizer):
+        self.enableTrackingCheckBox = wx.CheckBox(self, label=_("Enable tracking"))
+        state = config.conf["mouseTracker"]["enableTracking"]
+        self.enableTrackingCheckBox.SetValue(state)
+        settingsSizer.Add(self.enableTrackingCheckBox)
 
 # This function is executed when pressing okay in add-on settings.
-	def onSave(self):
-		config.conf["mouseTracker"]["enableTracking"] = self.enableTrackingCheckBox.GetValue()
+    def onSave(self):
+        config.conf["mouseTracker"]["enableTracking"] = self.enableTrackingCheckBox.GetValue()

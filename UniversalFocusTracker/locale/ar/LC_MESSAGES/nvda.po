@@ -1,24 +1,38 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: UniversalFocusTracker\n"
-"POT-Creation-Date: 2026-04-03 18:50+0300\n"
-"PO-Revision-Date: 2026-04-03 03:26+0300\n"
+"POT-Creation-Date: 2026-04-24 14:22+0300\n"
+"PO-Revision-Date: 2026-04-24 15:07+0300\n"
 "Last-Translator: Muhimen Nabeel\n"
-"Language-Team: add-on's author\n"
+"Language-Team: muhimen nabeel\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
 "X-Generator: Poedit 3.9\n"
 "X-Poedit-Basepath: ../../../globalPlugins\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: Universal focus tracker/settingsOptions.py:15
-msgid "Focus tracker"
+#: ⁨Universal focus tracker/__init__.py⁩:47
+msgid "Enabled"
+msgstr "مُفَعَّل"
+
+#: ⁨Universal focus tracker/__init__.py⁩:47
+msgid "Disabled"
+msgstr "مُعَطَل"
+
+#: ⁨Universal focus tracker/__init__.py⁩:48
+msgid "Mouse tracking: "
+msgstr "تَتبُع مؤشر الفأرة للتركيز "
+
+#: ⁨Universal focus tracker/__init__.py⁩:51
+#: ⁨Universal focus tracker/settingsOptions.py⁩:15
+msgid "Universal focus tracker"
 msgstr "مؤَشِر تَتبُع التركيز"
 
-#: Universal focus tracker/settingsOptions.py:19
-msgid "Enable tracking"
-msgstr "جعِل مؤشِر الفأرة يَتَّبِع التركيز"
+#: ⁨Universal focus tracker/__init__.py⁩:52
+msgid "Enable or disable mouse tracking"
+msgstr "تَفعيل أو تَعطيل تَتبُع مؤشِر الفأرة للتركيز"
