@@ -1,0 +1,39 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2026-04-24 16:34+0300\n"
+"PO-Revision-Date: 2026-04-24 16:35+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+"X-Poedit-Basepath: ../../../globalPlugins\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ⁨Universal focus tracker/__init__.py⁩:52
+msgid "Enabled"
+msgstr "Увімкнено"
+
+#: ⁨Universal focus tracker/__init__.py⁩:52
+msgid "Disabled"
+msgstr "Вимкнено"
+
+#: ⁨Universal focus tracker/__init__.py⁩:53
+msgid "Mouse tracking: "
+msgstr "Відстеження миші:"
+
+#: ⁨Universal focus tracker/__init__.py⁩:57
+#: ⁨Universal focus tracker/settingsOptions.py⁩:15
+msgid "Universal focus tracker"
+msgstr "Універсальний відстежувач фокусу"
+
+#: ⁨Universal focus tracker/__init__.py⁩:58
+msgid "Enable or disable mouse tracking"
+msgstr "Увімкнути або вимкнути відстеження миші"
+
+#: ⁨Universal focus tracker/settingsOptions.py⁩:19
+msgid "Enable tracking"
+msgstr "Увімкнути відстеження"
