@@ -21,6 +21,8 @@ The add-on is fully integrated into the NVDA settings. Users can manage the trac
 3.  Select **Universal Focus Tracker**.
 4.  **Enable/Disable Toggle:** Use the provided checkbox to instantly activate or deactivate mouse tracking.
 
+> **Note:** Instead of that, you can use the shortcut **NVDA + Windows + T** to disable or enable mouse tracking quickly.
+
 ---
 
 ## Requirements
